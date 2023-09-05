@@ -1,5 +1,5 @@
 :root{
-    --accent-color:#d472bc;
+    --accent-color:#9c72d4;
     --header-font:'Montserrat',
         sans-serif;
     --para-font:'Comfortaa',
@@ -37,7 +37,7 @@ h1{
 h2{
 font-family: 'Comfortaa',
         cursive;
-        font-size: 22px;
+        font-size: 25px;
         margin-top: 15px;
         margin-bottom: 40px;
         line-height:30px;
@@ -46,13 +46,14 @@ font-family: 'Comfortaa',
 }
 
 .hero{
-    background-color:#fff9fe ;
+    background-color:#fcf9ff ;
     padding:160px 0;
 }
 
-.pinklady{
-   border: solid 5px #d472bc;
+.title-image{
+   border: solid 5px #9C72D4;
    border-radius: 15px;
+  max-width: 400px;
    margin:auto
   
 }
