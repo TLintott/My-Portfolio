@@ -6,35 +6,40 @@
         cursive;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 500px) {
     h1 {
+        font-size: 40px;
         padding-top: 5px;
         margin-top: 5px;
-        text-align: center;
+      
     }
+
     h2{
         text-align: center;
+        font-size: 20px;
+        padding:0px 10px
     }
-    .contact-btn {
-    display: block;
-    margin: 0 auto;
+    
         
     }
-}
+    .hero{
+        padding: 80px 20px;
+    }
 
 
 
 
 h1{
+    text-align: center;
     font-family: 'Montserrat',
             sans-serif;
         font-weight: bold;
         font-size: 64px;
-        padding-top: 60px;
-        margin-top: 60px;
+     
 }
 
 h2{
+    text-align: center;
 font-family: 'Comfortaa',
         cursive;
         font-size: 25px;
@@ -45,9 +50,18 @@ font-family: 'Comfortaa',
 
 }
 
+h3{
+text-align: center;
+padding: 50px;
+padding-bottom: 0px;
+font-family: var(--header-font);
+font-weight: bold;
+
+}
+
 .hero{
     background-color:#fcf9ff ;
-    padding:160px 0;
+    padding:140px 0;
 }
 
 .title-image{
@@ -65,8 +79,25 @@ font-family: 'Comfortaa',
     text-decoration: none;
     color: white;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
-        rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    rgba(0, 0, 0, 0.23) 0px 3px 6px;
     padding: 10px 50px;
-    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto;
 }
 
+.projects{
+    border: solid 2px #9C72D4;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 50px;
+}
+
+.project-img{
+    border-radius: 15px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    margin: 10px 2px;
+    transition: all 200ms ease-in-out;
+}
+.project-img:hover {
+    transform: scale(1.1);
+}
