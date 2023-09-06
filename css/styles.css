@@ -101,11 +101,11 @@ font-weight: bold;
     transform: scale(1.1);
 }
 
-.about-section{
+.content-container{
     padding: 160px 20px;
 
 }
-.about-section h1{
+.content-container h1{
     font-size: 64px;
     line-height: 80px;
     font-family: var(--header-font);
@@ -113,14 +113,14 @@ font-weight: bold;
   
 }
 
-.about-section p {
+.content-container p {
     font-size:20px;
     line-height: 30px;
     font-family: var(--para-font);
     margin-bottom: 40px;
    
 }
-.about-section-content{
+.content{
     margin:30px;
 }
 
@@ -137,6 +137,6 @@ border-radius: 4px;
     
 }
 .about-img{
-    border-radius: 10px;
+border-radius: 10px;
 box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
