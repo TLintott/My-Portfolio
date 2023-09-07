@@ -1,6 +1,6 @@
 :root{
     --accent-color:#b84672;
-    --secondary-color:#FFF9FF;
+    --secondary-color:#faecfa;
     --header-font:'Montserrat',
         sans-serif;
     
@@ -9,6 +9,9 @@
 }
 
 @media (max-width: 500px) {
+.email-link {
+    font-size: 16px;
+}
 
     .h1-text {
         font-size: 40px;
@@ -71,6 +74,8 @@ h5{
     font-family: var(--header-font);
 }
 
+
+
 .hero{
     background-color:var(--secondary-color);
     padding:140px 0;
@@ -95,12 +100,11 @@ h5{
     padding: 10px 50px;
     display: block;
     margin: 0 auto;
+
 }
 
-.projects{
 
-  
-}
+
 
 .project-img{
     border-radius: 15px;
@@ -135,6 +139,19 @@ h5{
     margin:30px;
 }
 
+.content h4{
+    font-size: 24px;
+    line-height: 1.5;
+    font-family: var(--para-font);
+}
+
+ a{
+    font-family: var(--para-font);
+    text-decoration: none;
+}
+
+
+
 .project-btn
 {
 border-radius: 4px;
@@ -148,6 +165,7 @@ border-radius: 4px;
     
 }
 .about-img{
+vertical-align: middle;
 border-radius: 10px;
 box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
@@ -206,6 +224,11 @@ footer .email-link{
     text-decoration: none;
     color: #000;
     font-size: 24px;
+    transition: all 100ms ease-in-out;
+}
+
+footer .email-link:hover{
+    color: var(--accent-color);
 }
 
 footer .social-links a {
@@ -226,9 +249,11 @@ footer .social-links a:hover{
 
 footer p {
     font-family: var(--para-font);
+    margin-bottom: 0;
 }
 
 footer a {
     font-family: var(--header-font);
     font-weight: bold;
 }
+
