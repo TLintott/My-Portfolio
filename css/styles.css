@@ -1,13 +1,15 @@
 :root{
-    --accent-color:#9c72d4;
+    --accent-color:#b84672;
+    --secondary-color:#FFF9FF;
     --header-font:'Montserrat',
         sans-serif;
+    
     --para-font:'Comfortaa',
         cursive;
 }
 
 @media (max-width: 500px) {
-  
+
     .h1-text {
         font-size: 40px;
         padding-top: 5px;
@@ -30,8 +32,7 @@
 
 .h1-text{
     text-align: center;
-    font-family: 'Montserrat',
-            sans-serif;
+    font-family: var(--header-font);
         font-weight: bold;
         font-size: 64px;
      
@@ -39,8 +40,7 @@
 
 h2{
     text-align: center;
-font-family: 'Comfortaa',
-        cursive;
+font-family: var(--para-font);
         font-size: 25px;
         margin-top: 15px;
         margin-bottom: 40px;
@@ -66,14 +66,13 @@ h4{
 
 }
 
-
 .hero{
-    background-color:#fcf9ff ;
+    background-color:var(--secondary-color);
     padding:140px 0;
 }
 
 .title-image{
-   border: solid 5px #9C72D4;
+   border: solid 5px var(--accent-color);
    border-radius: 15px;
   max-width: 400px;
    margin:auto
@@ -94,7 +93,7 @@ h4{
 }
 
 .projects{
-    border: solid 2px #9C72D4;
+    border: solid 2px var(--accent-color);
     border-radius: 5px;
     padding: 50px;
     margin: 50px;
@@ -153,4 +152,38 @@ box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 .para-text{
 
     font-size:18px ;
+}
+
+nav{
+    padding: 20px 0;
+}
+
+nav li{
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left:15px;
+
+}
+nav ul{
+    padding:0;
+    margin: 0;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-family: var(--para-font);
+    font-weight:bolder;
+    color: #000;
+
+}
+
+nav a:hover, nav li.active a {
+    color: var(--accent-color)
+}
+
+
+.logo{
+   max-height: 50px;
 }
